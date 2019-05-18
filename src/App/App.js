@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './App.css';
 import { Logo } from '../Logo/Logo';
+import { NewProjectInput } from '../NewProjectInput/NewProjectInput';
 
 const App = () => {
   // console.dir('Render!');
@@ -9,6 +10,7 @@ const App = () => {
   return (
     <div className="App">
       <Logo />
+      <NewProjectInput />
     </div>
   );
 };
